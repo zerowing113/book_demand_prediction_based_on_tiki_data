@@ -12,3 +12,5 @@ requests>=2.31
 
 joblib>=1.2
 pydantic>=1.10
+
+scipy>=1.9
