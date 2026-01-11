@@ -17,7 +17,7 @@ st.set_page_config(
 # =========================
 @st.cache_resource
 def load_model():
-    return joblib.load("models/final_model.pkl")
+    return joblib.load("models/book_demand_model.pkl")
 
 model = load_model()
 
@@ -229,3 +229,4 @@ st.markdown("""
 <small>📚 Book Demand Prediction System | Machine Learning Project</small>
 </div>
 """, unsafe_allow_html=True)
+
